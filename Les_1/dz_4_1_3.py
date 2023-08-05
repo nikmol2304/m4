@@ -1,5 +1,5 @@
-def check_palindrom(str):
-    if str == str[::-1]:
+def check_palindrom(stroka):
+    if stroka == stroka[::-1]:
         return True
     else:
         return False
